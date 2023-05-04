@@ -1,2 +1,1 @@
-# uts-wd-ryla
-uts
+# tugas-6-wd

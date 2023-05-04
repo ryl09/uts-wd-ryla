@@ -1,0 +1,94 @@
+body{
+    background-color: beige;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+
+}
+header {
+    background-color : #F5F5DC;
+    padding :2px;
+    border-radius:  1px solid #ccc;
+}
+h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(163, 245, 239);
+    letter-spacing: 2px;
+}
+h3{
+    color:rgb(172, 218, 240);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);;
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times ;
+}
+h4{
+    
+    color:rgb(163, 245, 239);
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.ktt{
+    background-color:#0a0b63;
+    
+    font-weight: bold;
+    text-align: center;
+    color:rgb(163, 245, 239);
+    font-size: 20px;
+    
+}
+p{
+    font-size: 15px ;
+    line-height: 1;
+    margin: 0 0 10px;
+    
+}
+.here{
+ background-image: url('backkai.jpg');
+ background-size: cover;
+ background-position: center center;
+ color:#F5F5DC;
+padding: 0 20px;
+}
+
+.article{
+    font-size: 10px;
+    color: #82cefa;
+}
+tr{
+    color :rgb(181, 222, 241);
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.kotak{
+  
+    background-color:#0a0c63c4;
+    max-width : 50 px;
+    margin-right :50px;
+    border:solid 2px rgb(240, 236, 236);
+    color:#fdfdfd;
+    font-size: 17px;
+}
+.kt{
+    background-color:#0a0b63;
+    max-width : 200px;
+    margin-right :50px;
+    border:solid 2px rgb(10, 10, 10);
+    color:#fdfdfd;
+    font-size: 10px;
+}
+.pseu {
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pse{
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

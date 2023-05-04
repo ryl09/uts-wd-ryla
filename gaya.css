@@ -1,0 +1,88 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background-color : rgb(240, 232, 232);
+	padding-inline: 500;
+	border: 5px solid rgb(14, 65, 109);
+    margin: 0% 9% 0% 9%;
+    z-index:89;
+
+}
+
+h3{
+        line-height: 0.005;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30;
+}
+h6{
+    line-height: 0.005;
+}
+
+
+.copy{
+    background-color: rgb(14, 65, 109);
+    font-size: 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+}
+
+.main{
+    font-family:Cambria, Cochin;
+    font-size:13;
+    background-color: rgb(197, 182, 202);
+    border-bottom: 3px solid #306ee0;
+    border-top:3px solid #306ee0;
+    width :60%;
+    padding : 10px;
+    box-sizing: border-box;
+    float:left;
+}
+
+.sidebar{
+    width: 35%;
+    float: right;
+    padding: 3px;
+}
+.sidebar h3{
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+.sidebar img{
+    width: 70px;
+    height: 80px;
+}
+.sidebar p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size : 14/18;
+    line-height: 0.7;
+
+}
+.link{
+    background-color: rgb(249, 215, 221);
+    position: fixed;
+    z-index: 100;
+    top:0;
+    right: 0px;
+    left: 0px;
+    bottom: 590px;
+
+}
+.link h1{
+    line-height: 0;
+}
+
+.cf::before,
+.cf::after{
+    content: " "; /*1*/
+    display: table /*1*/;
+}
+
+.cf::after{
+    clear: both;
+}
+
+.cf{
+    *zoom: 1;
+}
