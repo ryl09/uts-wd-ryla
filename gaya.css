@@ -63,10 +63,8 @@ h6{
     background-color: rgb(249, 215, 221);
     position: fixed;
     z-index: 100;
-    top:0;
-    right: 0px;
-    left: 0px;
-    bottom: 590px;
+    width: 10%;
+    height: 100%;
 
 }
 .link h1{
