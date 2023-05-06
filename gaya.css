@@ -4,10 +4,10 @@ header{
     align-items: center;
     justify-content: center;
 	background-color : rgb(240, 232, 232);
-	padding-inline: 500;
+	padding-inline: 100;
 	border: 5px solid rgb(14, 65, 109);
     margin: 0% 9% 0% 9%;
-    z-index:89;
+    z-index:50;
 
 }
 
@@ -61,10 +61,11 @@ h6{
 }
 .link{
     background-color: rgb(249, 215, 221);
+    overflow: hidden;
+    top: 0;
     position: fixed;
-    indeks-z : 100 ;
-    lebar : 100% ;
-    tinggi : 200px;
+    width: 100%;
+    z-index: 1;
 
 }
 .link h1{
